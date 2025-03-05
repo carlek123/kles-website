@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #container {
+            border: 15px solid black;
+            display: flex; 
+            background-color: red;
+            /*
+            flex-direction: row;
+            flex-wrap: wrap;
+            */
+
+            flex-flow: row wrap;
+            justify-content: space-around;
+
+            /* space bettween space around space evenly*/
+
+            align-items: stretch;
+            height: 800px;
+            
+        }
+
+        .items {
+            background-color: gold;
+            width: 200px;
+            margin: 5px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1> Hi! </h1>
+    <h1> Welcome to ChowQueen </h1>
     <div id="container">
-        <div class="items">12</div>
-        <div class="items">2</div>
-        <div class="items">3</div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
     </div>
     <p> Ey! </p>
 </body>
